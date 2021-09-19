@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: raleway_bold;
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: open_sans_bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: raleway_semibold;
+  src: url(../../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: raleway_regular;
+  src: url(../../fonts/Raleway-Regular.ttf);
+}
+.activebox {
+  background-image: url(../image/Backgroun_activebox.png);
+  background-size: cover;
+}
+
+.navigation nav ul li {
+  display: inline;
+}
+
+.navigation nav ul {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+.navigation nav ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: auto;
+  color: #c0c1c9;
+  font-family: raleway_bold;
+  margin: 0px 0px 0px 48px;
+}
+
+.activebox_logo {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.lead_Magnet {
+  text-align: center;
+  margin-bottom: 175px;
+}
+
+.lead_Magnet h1 {
+  text-transform: uppercase;
+  font-size: 65px;
+  line-height: 71px;
+  color: #ffffff;
+  font-family: open_sans_bold;
+  padding-top: 156px;
+}
+
+.lead_Magnet p {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-family: raleway_regular;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.lead_Magnet a {
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #e84545;
+  padding: 20px 50px 20px 50px;
+  font-family: raleway_semibold;
+  color: #fdf3f3;
+}
+
+.size_svg {
+  width: 80px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.svg_easily_customised {
+  background-image: url(../image/easily_customised.svg);
+}
+
+.svg_responsive_ready {
+  background-image: url(../image/responsive_ready.svg);
+}
+
+.svg_modern_design {
+  background-image: url(../image/modern_design.svg);
+}
+
+.svg_clean_code {
+  background-image: url(../image/clean_code.svg);
+}
+
+.svg_ready_to_ship {
+  background-image: url(../image/ready_to_ship.svg);
+}
+
+.svg_download_for_free {
+  background-image: url(../image/download_for_free.svg);
+}
+
+.feature {
+  margin-top: 72px;
+}

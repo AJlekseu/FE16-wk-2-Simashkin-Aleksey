@@ -1,0 +1,30 @@
+$font_raleway_bold: raleway_bold;
+$font_open_sans_bold: open_sans_bold;
+$font_raleway_semibold: raleway_semibold;
+$font_raleway_regular: raleway_regular;
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: $font_raleway_bold;
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: $font_open_sans_bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: $font_raleway_semibold;
+  src: url(../../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: $font_raleway_regular;
+  src: url(../../fonts/Raleway-Regular.ttf);
+}
+@import "active_box"; 
+
+@import "features";
+

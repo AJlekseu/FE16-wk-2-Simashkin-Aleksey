@@ -1,0 +1,55 @@
+$font_raleway_bold: raleway_bold;
+$font_open_sans_bold: open_sans_bold;
+$font_raleway_semibold: raleway_semibold;
+$font_raleway_regular: raleway_regular;
+.activebox {
+  background-image: url(../image/Backgroun_activebox.png);
+  background-size: cover;
+}
+.navigation nav ul li {
+  display: inline;
+}
+.navigation nav ul {
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.navigation nav ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: auto;
+  color: #c0c1c9;
+  font-family: $font_raleway_bold;
+  margin: 0px 0px 0px 48px;
+}
+.activebox_logo {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.lead_Magnet {
+  text-align: center;
+  margin-bottom: 175px;
+}
+.lead_Magnet h1 {
+  text-transform: uppercase;
+  font-size: 65px;
+  line-height: 71px;
+  color: #ffffff;
+  font-family: $font_open_sans_bold;
+  padding-top: 156px;
+}
+.lead_Magnet p {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-family: $font_raleway_regular;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+}
+.lead_Magnet a {
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #e84545;
+  padding: 20px 50px 20px 50px;
+  font-family: $font_raleway_semibold;
+  color: #fdf3f3;
+  }
