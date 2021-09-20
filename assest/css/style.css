@@ -114,3 +114,21 @@
 .feature {
   margin-top: 72px;
 }
+
+.team p {
+  font-family: raleway_regular;
+}
+
+.name_size {
+  font-size: 22px;
+}
+
+.prof-size {
+  font-size: 13px;
+}
+
+.info_size {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: start;
+}
