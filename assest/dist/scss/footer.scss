@@ -1,0 +1,27 @@
+.background_footer {
+  background-image: url(../image/background_footer.png);
+  background-size: cover;
+}
+.pad {
+  padding-top: 70px;
+}
+.f_p {
+  font-family: $font_raleway_bold;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: auto;
+}
+.f_p_info {
+  color: #6f728a;
+  font-size: 14px;
+  line-height: 22px;
+}
+.border_all {
+  display: flex;
+  justify-content: center;
+}
+.border_i{
+  border: solid 2px white;
+  margin-left: 7px;
+  padding: 12px 12px 12px 12px;
+}

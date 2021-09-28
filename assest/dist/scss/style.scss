@@ -2,6 +2,7 @@ $font_raleway_bold: raleway_bold;
 $font_open_sans_bold: open_sans_bold;
 $font_raleway_semibold: raleway_semibold;
 $font_raleway_regular: raleway_regular;
+$font_raleway_light: raleway_light;
 *{
   margin: 0;
   padding: 0;
@@ -24,6 +25,11 @@ $font_raleway_regular: raleway_regular;
   font-family: $font_raleway_regular;
   src: url(../../fonts/Raleway-Regular.ttf);
 }
+@font-face {
+  font-family: $font_raleway_light;
+  src: url(../../fonts/Raleway-Light.ttf)
+}
+
 @import "active_box"; 
 
 @import "features";
@@ -31,4 +37,8 @@ $font_raleway_regular: raleway_regular;
 @import "team";
 
 @import "galery";
+
+@import "download_here";
+
+@import "footer";
 

@@ -1,0 +1,27 @@
+.down a {
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #e84545;
+  padding: 20px 50px 20px 50px;
+  font-family: $font_raleway_semibold;
+  color: #fdf3f3;
+  }
+  .p1 {
+    padding-top: 100px;
+    font-family: $font_raleway_light;
+    font-size: 28px;
+    line-height: 21px;
+    color: #3b3e41;
+  }
+  .p2 {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    font-family: $font_raleway_bold;
+    font-size: 13px;
+    line-height: 21px;
+    color: #3b3e41;
+    text-transform: uppercase;
+  }
+  .ready_to_start {
+    margin-bottom: 100px;
+  }
