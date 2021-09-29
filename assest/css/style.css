@@ -137,6 +137,11 @@
   text-align: start;
 }
 
+.team img {
+  width: 100%;
+  border-radius: 500%;
+}
+
 .galery {
   display: -ms-grid;
   display: grid;
@@ -190,6 +195,10 @@
 .galery > *:nth-child(8) {
   -ms-grid-row: 3;
   -ms-grid-column: 7;
+}
+
+.galery img {
+  width: 100%;
 }
 
 .down a {
