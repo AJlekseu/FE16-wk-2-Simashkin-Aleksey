@@ -259,3 +259,22 @@
   margin-left: 7px;
   padding: 12px 12px 12px 12px;
 }
+
+.background_footer_2 {
+  background-image: url(../image/background_footer_2.png);
+  background-size: cover;
+}
+
+.pad_2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.f_p_2 {
+  color: #808080;
+  font-family: raleway_regular;
+}
+
+.span_footer {
+  color: #eaeaec;
+}
