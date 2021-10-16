@@ -294,7 +294,7 @@
   line-height: 22px;
 }
 
-.border_all {
+.svg_footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,13 +303,23 @@
           justify-content: center;
 }
 
-.border_i {
-  border: solid 2px white;
+.footer_i {
+  border: solid 2px #c6cacc;
   margin-left: 7px;
-  padding: 12px 12px 12px 12px;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.i_color {
+.i_color_footer {
   color: white;
 }
 
@@ -330,4 +340,8 @@
 
 .span_footer {
   color: #eaeaec;
+}
+
+.heart {
+  color: red;
 }
